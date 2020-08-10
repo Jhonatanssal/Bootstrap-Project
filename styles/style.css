@@ -63,6 +63,10 @@ body {
   border: none;
 }
 
+.nav-icon {
+  display: none;
+}
+
 .middle-nav {
   width: 97%;
   height: 4rem;
@@ -197,4 +201,37 @@ body {
 .more-stories {
   padding-top: 1rem;
   border-top: 1px solid rgb(200, 200, 200);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.the-debate {
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+}
+
+.debate {
+  height: 8rem;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.debate-img {
+  height: 6.5rem;
+}
+
+.versus {
+  position: relative;
+  height: 3px;
+  margin: 2rem auto;
+}
+
+.vs {
+  top: -1.4rem;
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  position: relative;
 }

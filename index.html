@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
   <title>Newsweek</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="https://kit.fontawesome.com/548462a5f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,12 +26,18 @@
           <img class="w-logo" src="img/newsweek-logo-w.png" alt="" width="150px">
         </a>
         <div class="navbar-brand align-items-md-end">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill nav-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          </svg>
           <span class="location">
             LOGIN
           </span>
           <button class="btn-warning nav-item nav-btn">
             SUBSCRIBE &gt;
           </button>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list nav-icon" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
         </div>
       </nav>
       <nav class="navbar bg-white container-fluid">
@@ -268,7 +276,7 @@
 
           <div class="news-1">
             <div class="title-1">
-              <h2 class="h2-main">TOP STORY</h2>
+              <h2 class="h2-main color-gray">TOP STORY</h2>
             </div>
             <div class="img-news-1">
               <img class="news-img" src="img/top-story.webp" alt="">
@@ -598,12 +606,142 @@
 
 
         <div class="col grid-item">
-          <div>
-            the debate
+
+          <div class="">
+            <h2 class="h2-main color-gray">
+              THE DEBATE
+            </h2>
+            <div class="col the-debate">
+              <div class="row debate">
+                <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+                <div class="col-9">
+                  <a class="undeline-orangered" href="#">
+                    <h2 class="capitalize other-h2">  
+                      religious freedom is under attack like never before              
+                    </h2>                  
+                  </a> 
+                  <p class="uppercase">
+                    by <b>kelly shackelford</b>
+                  </p>
+                </div> 
+              </div>
+
+              <div class="versus row justify-content-center border border-dark">
+                <div class="vs font-weight-bold row justify-content-center align-content-md-center rounded-circle text-light bg-dark">VS</div>
+              </div>
+
+              <div class="row debate">                
+                <div class="col-9">
+                  <a class="undeline-orangered" href="#">
+                    <h2 class="capitalize other-h2">  
+                      religious freedom is under attack like never before              
+                    </h2>                  
+                  </a> 
+                  <p class="uppercase">
+                    by <b>kelly shackelford</b>
+                  </p>
+                </div> 
+                <img class="col-3 debate-img" src="img/debate-2.webp" alt="">
+              </div>
+            </div>
           </div>
+
           <div>
-            opinion
+            
+            <div class="">
+              <h2 class="h2-main color-gray">
+                OPINION
+              </h2>
+              <div class="col the-debate">
+                <div class="row debate">
+                  <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+                  <div class="col-9">
+                    <a class="undeline-orangered" href="#">
+                      <h2 class="capitalize other-h2">  
+                        religious freedom is under attack like never before              
+                      </h2>                  
+                    </a> 
+                    <p class="uppercase">
+                      by <b>kelly shackelford</b>
+                    </p>
+                  </div> 
+                </div>
+  
+                
+                <div class="row debate">
+                  <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+                  <div class="col-9">
+                    <a class="undeline-orangered" href="#">
+                      <h2 class="capitalize other-h2">  
+                        religious freedom is under attack like never before              
+                      </h2>                  
+                    </a> 
+                    <p class="uppercase">
+                      by <b>kelly shackelford</b>
+                    </p>
+                  </div> 
+                </div>
+
+                <div class="row debate">
+                  <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+                  <div class="col-9">
+                    <a class="undeline-orangered" href="#">
+                      <h2 class="capitalize other-h2">  
+                        religious freedom is under attack like never before              
+                      </h2>                  
+                    </a> 
+                    <p class="uppercase">
+                      by <b>kelly shackelford</b>
+                    </p>
+                  </div> 
+                </div>
+              </div>
+            </div>
+
+            <div class="row debate">
+              <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+              <div class="col-9">
+                <a class="undeline-orangered" href="#">
+                  <h2 class="capitalize other-h2">  
+                    religious freedom is under attack like never before              
+                  </h2>                  
+                </a> 
+                <p class="uppercase">
+                  by <b>kelly shackelford</b>
+                </p>
+              </div> 
+            </div>
+
+            <div class="row debate">
+              <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+              <div class="col-9">
+                <a class="undeline-orangered" href="#">
+                  <h2 class="capitalize other-h2">  
+                    religious freedom is under attack like never before              
+                  </h2>                  
+                </a> 
+                <p class="uppercase">
+                  by <b>kelly shackelford</b>
+                </p>
+              </div> 
+            </div>
+
+            <div class="row debate">
+              <img class="col-3 debate-img" src="img/debate-1.webp" alt="">
+              <div class="col-9">
+                <a class="undeline-orangered" href="#">
+                  <h2 class="capitalize other-h2">  
+                    eligious freedom is under attack like never before              
+                  </h2>                  
+                </a> 
+                <p class="uppercase">
+                  by <b>kelly shackelford</b>
+                </p>
+              </div> 
+            </div>
+  
           </div>
+
           <div class="col w-100 news-1">
             <div class="title-1">
               <h2 class="h2-main">TOP STORY</h2>
