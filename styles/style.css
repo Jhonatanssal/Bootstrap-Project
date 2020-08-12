@@ -33,8 +33,26 @@ body {
 
 /* -------------- NABVAR ---------------*/
 
+.nav-container {
+  position: relative;
+}
+
 .sticky-navbar {
-  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  height: 5rem !important;
+}
+
+.sticky-logo {
+  object-fit: cover;
+  height: 5rem;
+}
+
+.nav-static {
+  z-index: 11;
 }
 
 .container-fluid {
@@ -82,13 +100,18 @@ body {
   display: none;
 }
 
+.nav-icon-bars {
+  display: inline;
+  font-size: 3rem;
+  fill: pink;
+}
+
 .middle-nav {
   width: 80%;
   height: 4.5rem;
   font-size: 150%;
   font-weight: 600;
   color: black;
-  transform: translate(-1rem, -1.5rem);
 }
 
 .sections {
@@ -275,7 +298,9 @@ body {
 .bg-container {
   width: 100%;
   height: 23.5rem;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .bg-third-1 {
@@ -304,7 +329,7 @@ body {
 
 .form-container {
   border: 1px solid green;
-  width: 30rem;
+  width: auto;
 }
 
 .icon-n {
@@ -401,13 +426,13 @@ body {
 
 .subscribe-container {
   background-color: #f4f5f6;
-  height: 95%;
+  height: 20vw;
   padding: 3rem;
   width: 100%;
 }
 
 .subscribe-img {
-  width: 28rem;
+  width: 25rem;
   height: 100%;
 }
 
@@ -417,8 +442,8 @@ body {
 
 .subscribe-h2 {
   font-weight: 1000;
-  font-size: 2.3vw;
-  line-height: 2.3rem;
+  font-size: 2vw;
+  line-height: 2vw;
   width: 100%;
 }
 
@@ -431,10 +456,14 @@ body {
   font-size: 1.8rem;
 }
 
+.newsletter-container {
+  height: 20vw;
+}
+
 .newsletter-img-1 {
   object-fit: cover;
   width: 20rem;
-  height: 35rem;
+  height: 20vw;
 }
 
 .newsletter-text {
@@ -480,6 +509,10 @@ body {
   margin: auto 0.5rem;
 }
 
+.my-turn-sm {
+  width: 100%;
+}
+
 @media only screen and (max-width: 991px) {
   .sticky-navbar {
     z-index: 999;
@@ -501,19 +534,9 @@ body {
     display: none;
   }
 
-  .nav-icon-bars {
-    display: inline;
-    font-size: 3rem;
-    fill: pink;
-  }
-
   .main-p {
     top: 5rem;
     position: relative;
-  }
-
-  .sticky3-item {
-    width: 40%;
   }
 
   .newsletter-main {
@@ -522,5 +545,19 @@ body {
 
   .newsletter-img-1 {
     height: 25rem;
+  }
+
+  .newsletter-container {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .bg-container {
+    height: 45vh;
+  }
+
+  .mag-img {
+    height: auto;
   }
 }
