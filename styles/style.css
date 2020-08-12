@@ -14,6 +14,7 @@ html {
 body {
   font-weight: 300;
   line-height: 1.6;
+  position: relative;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f5f7;
@@ -37,22 +38,27 @@ body {
   position: relative;
 }
 
+.navbar-big {
+  transform: translateY(-5rem);
+  z-index: 15;
+}
+
 .sticky-navbar {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
   width: 100%;
+  left: 0;
   z-index: 9;
   height: 5rem !important;
+}
+
+.lists {
+  margin-top: -5rem;
 }
 
 .sticky-logo {
   object-fit: cover;
   height: 5rem;
-}
-
-.nav-static {
-  z-index: 11;
 }
 
 .container-fluid {
@@ -549,6 +555,10 @@ body {
 
   .newsletter-container {
     height: auto;
+  }
+
+  .whole-cont {
+    margin-top: 5rem;
   }
 }
 

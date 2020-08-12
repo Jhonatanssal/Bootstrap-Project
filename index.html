@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>Newsweek</title>
   <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
@@ -11,36 +12,36 @@
   <script src="https://kit.fontawesome.com/548462a5f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-lg whole-cont">
 
-    <div class="nav-container">
+    <div class="sticky-navbar container-fluid d-flex bg-orangered justify-content-between align-items-baseline">
 
-      <div class="sticky-navbar container-fluid d-flex bg-orangered justify-content-between align-items-baseline">
+      <a href="#" class="">
+        <img class="sticky-logo" src="img/newsweek-logo-w.png" alt="" width="150px">
+      </a>
 
-        <a href="#" class="">
-          <img class="sticky-logo" src="img/newsweek-logo-w.png" alt="" width="150px">
-        </a>
-  
-        <div class="navbar-brand align-items-md-end">
-          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill nav-icon nav-icon-bars d-sm-inline d-md-none" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-          </svg>
-          <span class="d-sm-none d-md-inline location color-white">
-            LOGIN
-          </span>
-          <button class="btn-warning nav-item nav-btn color-white">
-            SUBSCRIBE &gt;
-          </button>
-          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list nav-icon nav-icon-bars" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </div>
-  
+      <div class="navbar-brand align-items-md-end">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill nav-icon nav-icon-bars d-sm-inline d-md-none" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+        </svg>
+        <span class="d-sm-none d-md-inline location color-white">
+          LOGIN
+        </span>
+        <button class="btn-warning nav-item nav-btn color-white">
+          SUBSCRIBE &gt;
+        </button>
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list nav-icon nav-icon-bars" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
       </div>
-  
-      <div class="div-nav d-md-none d-lg-block">
 
-        <nav class="nav-static navbar navbar-light bg-orangered align-content-md-end">
+    </div>
+
+    <div class="navbar-big nav-container-lg">
+  
+      <div class="div-nav position-relative d-md-none d-lg-block">
+
+        <nav class="nav-static position-relative navbar navbar-light bg-orangered align-content-md-end">
           <div class="right-nav color-white">
             <div class="location right-nav-item">
               Medellín, Colombia
@@ -68,8 +69,10 @@
           </div>
         </nav>
       </div>
+    </div>
 
-      <nav class="navbar bg-white container-fluid d-sm-none d-lg-block">
+    <div class="lists">
+      <div class="navbar bg-white container-fluid d-sm-none d-lg-block">
         <div class="container-fluid middle-nav d-flex bg-white align-content-md-center border-bottom bg-white">
           <span class="sections">U.S.</span>
           <span class="sections">World</span>
@@ -89,8 +92,8 @@
             </form>
           </span>
         </div>
-      </nav>
-      <nav class="navbar bg-white d-sm-none d-lg-block">
+      </div>
+      <div class="navbar bg-white d-sm-none d-lg-block">
         <div class="bottom-nav d-flex align-items-md-center">
           <span class="trending-sections">TRENDING</span>
           <span class="trending-sections color-gray">DONALD TRUMP</span>
@@ -99,7 +102,7 @@
           <span class="trending-sections color-gray">CORONAVIRUS</span>
           <span class="trending-sections color-gray">2020 ELECTION</span>
         </div>
-      </nav>
+      </div>
     </div>
 
 
