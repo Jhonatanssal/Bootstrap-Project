@@ -15,7 +15,7 @@ Building a page using HTML, CSS and Bootsrap that matches the appearance of this
 
 # Live Demo
 
-[Click here for Live Demo](https://jssarrazolaa.github.io/NYT-Article-Space-Ripples_MPS/)
+[Click here for Live Demo](https://jssarrazolaa.github.io/Booststrap-Project/)
 
 # Getting Started
 
@@ -30,7 +30,7 @@ Building a page using HTML, CSS and Bootsrap that matches the appearance of this
 # Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/jssarrazolaa/Building-with-Responsive-Design/issues).
+Feel free to check the [issues page](https://github.com/jssarrazolaa/Booststrap-Project/issues).
 
 # Show your support
 
