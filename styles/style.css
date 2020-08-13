@@ -32,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-/* -------------- NABVAR ---------------*/
+/* -------------- NABVAR --------------- */
 
 .nav-container {
   position: relative;
@@ -58,7 +58,8 @@ body {
 
 .sticky-logo {
   object-fit: cover;
-  height: 5rem;
+  height: 5.5rem;
+  width: 150px;
 }
 
 .container-fluid {
@@ -98,7 +99,8 @@ body {
   border-radius: 10px;
   font-size: 1.5rem;
   font-weight: 900;
-  padding: auto 1rem auto 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   border: none;
 }
 
@@ -386,7 +388,6 @@ body {
 
 .cover-a {
   height: 2.5rem;
-  font-size: rem;
 }
 
 .cover-a:hover {
@@ -540,6 +541,7 @@ body {
     margin-top: 0;
     object-fit: cover;
     height: 5.5rem;
+    width: 150px;
   }
 
   .div-nav {
