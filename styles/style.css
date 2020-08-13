@@ -453,8 +453,12 @@ body {
 }
 
 .subscribe-img {
-  width: 80%;
+  width: 15vw;
   height: 17vw;
+}
+
+.subscribe-img-1 {
+  height: 100%;
 }
 
 .subscribe-img-2 {
@@ -567,6 +571,10 @@ body {
 
   .div-greener {
     width: 40rem;
+  }
+
+  .subscribe-img-1 {
+    height: 100%;
   }
 }
 
