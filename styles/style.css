@@ -448,22 +448,17 @@ body {
 .subscribe-container {
   background-color: #f4f5f6;
   height: 20vw;
-  padding: 3rem;
+  padding: 2rem;
   width: 100%;
 }
 
 .subscribe-img {
-  width: 100%;
-  height: 100%;
-}
-
-.subscribe-img-1 {
-  width: 15vw;
-  height: 100%;
+  width: 80%;
+  height: 17vw;
 }
 
 .subscribe-img-2 {
-  transform: translate(-10rem, 1.2rem);
+  transform: translate(-10vw, 1.2vh);
 }
 
 .subscribe-h2 {
@@ -586,5 +581,9 @@ body {
 
   .div-greener {
     width: 100%;
+  }
+
+  .subscribe-img-1 {
+    height: 100%;
   }
 }
