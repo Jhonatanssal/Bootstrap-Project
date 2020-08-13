@@ -265,6 +265,7 @@ body {
 
 .debate-sect {
   width: 100%;
+  height: auto;
 }
 
 .debate {
@@ -496,14 +497,6 @@ body {
   list-style: none;
 }
 
-.footer-li {
-  width: auto;
-}
-
-.footer-a {
-  width: 10rem;
-}
-
 .footer-a:hover {
   text-decoration: none;
   color: black;
@@ -557,8 +550,8 @@ body {
     height: auto;
   }
 
-  .whole-cont {
-    margin-top: 5rem;
+  .div-greener {
+    width: 40rem;
   }
 }
 
@@ -569,5 +562,9 @@ body {
 
   .mag-img {
     height: auto;
+  }
+
+  .div-greener {
+    width: 100%;
   }
 }

@@ -21,10 +21,10 @@
       </a>
 
       <div class="navbar-brand align-items-md-end">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill nav-icon nav-icon-bars d-sm-inline d-md-none" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill nav-icon nav-icon-bars d-inline d-md-none" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
         </svg>
-        <span class="d-sm-none d-md-inline location color-white">
+        <span class="d-none d-md-inline location color-white">
           LOGIN
         </span>
         <button class="btn-warning nav-item nav-btn color-white">
@@ -71,8 +71,8 @@
       </div>
     </div>
 
-    <div class="lists">
-      <div class="navbar bg-white container-fluid d-sm-none d-lg-block">
+    <div class="lists d-none d-lg-block">
+      <div class="navbar bg-white container-fluid d-none d-lg-block">
         <div class="container-fluid middle-nav d-flex bg-white align-content-md-center border-bottom bg-white">
           <span class="sections">U.S.</span>
           <span class="sections">World</span>
@@ -93,7 +93,7 @@
           </span>
         </div>
       </div>
-      <div class="navbar bg-white d-sm-none d-lg-block">
+      <div class="navbar bg-white d-none d-lg-block">
         <div class="bottom-nav d-flex align-items-md-center">
           <span class="trending-sections">TRENDING</span>
           <span class="trending-sections color-gray">DONALD TRUMP</span>
@@ -108,9 +108,9 @@
 
     <main class="main-p w-100">
 
-      <div class="sticky-container grid d-flex flex-sm-wrap bg-white p-4 position-relative">
+      <div class="sticky-container grid d-flex flex-wrap bg-white p-4 position-relative">
 
-        <div class="news-1 d-sm-block col-sm-12 d-md-none">
+        <div class="news-1 d-block col-12 d-md-none">
           <div class="title-1">
             <h2 class="h2-main color-gray">TOP STORY</h2>
           </div>
@@ -227,7 +227,7 @@
             </div>
           </div>
 
-          <div class="d-sm-none d-md-block">
+          <div class="d-none d-md-block">
             <div class="feature other-news">
               <a href="#" class="other-news-a hover-or">
                 <h2 class="other-h2">
@@ -258,7 +258,7 @@
             </div>
           </div>
 
-          <div class="feature d-sm-none d-md-block">
+          <div class="feature d-none d-md-block">
             <div class="feature-bg news-img news-bg-1">
             </div>
             <div class="news-title">
@@ -275,7 +275,7 @@
             </div>
           </div>
           
-          <div class="feature d-sm-none d-md-block">
+          <div class="feature d-none d-md-block">
             <div class="feature-bg news-img news-bg-2">
             </div>
             <div class="news-title">
@@ -292,7 +292,7 @@
             </div>
           </div>
           
-          <div class="feature d-sm-none d-md-block">
+          <div class="feature d-none d-md-block">
             <div class="feature-bg news-img news-bg-3">
             </div>
             <div class="news-title">
@@ -309,7 +309,7 @@
             </div>
           </div>
           
-          <div class="feature d-sm-none d-md-block">
+          <div class="feature d-none d-md-block">
             <div class="feature-bg news-img news-bg-4">
             </div>
             <div class="news-title">
@@ -328,7 +328,7 @@
         </div>
 
 
-        <div class="sticky2 d-sm-none col-sm-12 d-md-block col-lg-5 col-md-7 col-lg grid-item position-sticky">
+        <div class="sticky2 d-none d-md-block col-lg-5 col-md-7 col-lg grid-item position-sticky">
 
           <div class="news-1">
             <div class="title-1">
@@ -351,7 +351,7 @@
             </div>
           </div>
 
-          <div class="d-sm-none d-md-block">
+          <div class="d-none d-md-block">
 
             <div class="title-1">
               <h2 class="h2-main color-gray">MY TURN</h2>
@@ -400,7 +400,7 @@
             </div>
           </div>
 
-          <div class="d-sm-none d-md-block">
+          <div class="d-none d-md-block">
 
             <div class="title-1">
               <h2 class="h2-main color-gray">CULTURE & TRAVEL</h2>
@@ -451,7 +451,7 @@
             </div>
           </div>
 
-          <div class="d-sm-none d-md-block">
+          <div class="d-none d-md-block">
 
             <div class="title-1">
               <h2 class="h2-main">MORE STORIES</h2>
@@ -702,13 +702,16 @@
         </div>
 
 
-        <div class="sticky3 col-lg grid-item d-sm-flex flex-sm-column align-items-sm-center">
+        <div class="sticky3 col-lg grid-item d-flex flex-column align-items-center">
 
           <div class="debate-sect">
+
             <h2 class="h2-main color-gray">
               THE DEBATE
             </h2>
+
             <div class="the-debate">
+
               <div class="d-flex debate">
                 <img class="debate-img" src="img/debate-1.webp" alt="">
                 <div class="col-9">
@@ -835,9 +838,9 @@
             </div>  
           </div>
 
-          <div class="container-fluid bg-white col-sm-12 col-md-5 col-lg-12">
+          <div class="div-greener bg-white">
 
-            <div class="col-md-12 d-flex flex-column sticky3-item my-4">
+            <div class="d-flex flex-column sticky3-item my-4">
 
               <div class="bg-container bg-third-1">
               </div>
@@ -853,7 +856,7 @@
               </div> 
             </div>
   
-            <div class="d-sm-none d-md-block flex-column alert alert-dark p-3 form-container m-4">
+            <div class="d-none d-md-block flex-column alert alert-dark p-3 form-container m-4">
               <div class="d-flex uppercase align-items-md-center px-3">
                 <span class="icon-n"></span>
                 <p class="uppercase form-text font-weight-bolder d-flex align-items-md-center pt-3">Start your day with our top 5 articles</p>
@@ -915,13 +918,13 @@
           </div>
         </div>
 
-        <div class="mt-4 d-sm-block d-md-none">
+        <div class="mt-4 d-block d-md-none">
 
           <div class="title-1">
             <h2 class="h2-main">MORE STORIES</h2>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-1.webp" alt="">
             </div>
@@ -941,7 +944,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-2.webp" alt="">
             </div>
@@ -961,7 +964,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-3.webp" alt="">
             </div>
@@ -981,7 +984,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-4.webp" alt="">
             </div>
@@ -1001,7 +1004,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-5.webp" alt="">
             </div>
@@ -1021,7 +1024,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-6.webp" alt="">
             </div>
@@ -1041,7 +1044,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-7.webp" alt="">
             </div>
@@ -1061,7 +1064,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-8.webp" alt="">
             </div>
@@ -1081,7 +1084,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-9.webp" alt="">
             </div>
@@ -1101,7 +1104,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-10.webp" alt="">
             </div>
@@ -1121,7 +1124,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-11.webp" alt="">
             </div>
@@ -1141,7 +1144,7 @@
             </div>
           </div>
 
-          <div class="d-flex more-stories col-sm-12 p-3">
+          <div class="d-flex more-stories col-12 p-3">
             <div class="col-3 img-news-1">
               <img class="news-img" src="img/more-stories-12.webp" alt="">
             </div>
@@ -1165,7 +1168,7 @@
 
         <div class="container-fluid bg-white border-top">
 
-          <div class="d-sm-block d-md-none border-bottom">
+          <div class="d-block d-md-none border-bottom">
 
             <div class="title-1">
               <h2 class="h2-main color-gray">MY TURN</h2>
@@ -1214,7 +1217,7 @@
             </div>
           </div>
   
-          <div class="d-sm-block d-md-none">
+          <div class="d-block d-md-none">
   
             <div class="title-1">
               <h2 class="h2-main color-gray">CULTURE & TRAVEL</h2>
@@ -1265,7 +1268,7 @@
             </div>
           </div>
 
-          <div class="d-sm-flex d-md-none flex-sm-column align-items-sm-center col-sm-12 col-md-5 sticky3-item my-4">
+          <div class="d-flex d-md-none flex-column align-items-center col-12 col-md-5 sticky3-item my-4">
 
             <div class="bg-container bg-third-1">
             </div>
@@ -1281,8 +1284,8 @@
             </div> 
           </div>
 
-          <div class="col-sm-12 d-sm-flex flex-column d-md-none">
-            <div class="col-sm-6 d-sm-block d-md-none alert alert-dark p-3 form-container my-4">
+          <div class="col-12 d-flex flex-column d-md-none">
+            <div class="col-6 d-block d-md-none alert alert-dark p-3 form-container my-4">
               <div class="d-flex uppercase align-items-center px-3">
                 <span class="icon-n"></span>
                 <p class="uppercase form-text font-weight-bolder d-flex align-items-md-center pt-3">Start your day with our top 5 articles</p>
@@ -1294,7 +1297,7 @@
             </div>
           </div>
 
-          <div class="col-sm-12 d-md-none sticky3-item my-4">
+          <div class="col-12 d-md-none sticky3-item my-4">
 
             <div class="bg-container bg-third-2">
             </div>
@@ -1310,7 +1313,7 @@
             </div> 
           </div>
 
-          <div class="col-sm-12 d-md-none sticky3-item my-4">
+          <div class="col-12 d-md-none sticky3-item my-4">
 
             <div class="bg-container bg-third-3">
             </div>
@@ -1326,7 +1329,7 @@
             </div> 
           </div>
 
-          <div class="col-sm-12 d-md-none sticky3-item  my-4">
+          <div class="col-12 d-md-none sticky3-item  my-4">
 
             <div class="bg-container bg-third-4">
             </div>
@@ -1347,22 +1350,22 @@
       </div>
     </main>
 
-    <div class="main main-2 magazine-cont p container-fluid flex-sm-column bg-white border-bottom">
+    <div class="main main-2 magazine-cont p container-fluid flex-column bg-white border-bottom">
 
       <div class="d-flex align-items-center my-4">
         <span class="icon-n"></span>
         <span class="uppercase font-weight-bolder in-the"> in the magazine</span>
       </div>
 
-      <div class="d-flex flex-md-wrap flex-sm-column flex-md-row my-4 p-4">
+      <div class="d-flex flex-md-wrap flex-column flex-md-row my-4 p-4">
 
-        <div class="magazine col-sm-12 col-md-3 news-1 my-4">
+        <div class="magazine col-12 col-md-3 news-1 my-4">
           <div class="img-news-1 pointer">
             <img class="news-img" src="img/second-grid-img-1.webp" alt="">
           </div>
         </div>
 
-        <div class="magazine col-sm-12 col-md-3 my-4">
+        <div class="magazine col-12 col-md-3 my-4">
           <div class="pointer">
             <img class="mag-img" src="img/second-grid-img-2.webp" alt="">
           </div>
@@ -1387,7 +1390,7 @@
           </div>
         </div>
 
-        <div class="magazine col-sm-12 col-md-3 my-4">
+        <div class="magazine col-12 col-md-3 my-4">
           <div class="pointer">
             <img class="mag-img" src="img/second-grid-img-3.webp" alt="">
           </div>
@@ -1412,7 +1415,7 @@
           </div>
         </div>
 
-        <div class="magazine col-sm-12 col-md-3 my-4">
+        <div class="magazine col-12 col-md-3 my-4">
           <div class="pointer">
             <img class="mag-img" src="img/second-grid-img-4.webp" alt="">
           </div>
@@ -1437,7 +1440,7 @@
           </div>
         </div>
 
-        <div class="magazine col-sm-12 col-md-3 my-4">
+        <div class="magazine col-12 col-md-3 my-4">
           <div class="pointer">
             <img class="mag-img" src="img/second-grid-img-5.webp" alt="">
           </div>
@@ -1462,7 +1465,7 @@
           </div>
         </div>
 
-        <div class="magazine col-sm-12 col-md-3 my-4">
+        <div class="magazine col-12 col-md-3 my-4">
           <div class="pointer">
             <img class="mag-img" src="img/second-grid-img-6.webp" alt="">
           </div>
@@ -1498,7 +1501,7 @@
         <span class="uppercase font-weight-bolder in-the"> editor's pick</span>
       </div>
       
-      <div class="d-flex flex-md-row flex-sm-column flex-md-wrap p-4 border-bottom">
+      <div class="d-flex flex-md-row flex-column flex-md-wrap p-4 border-bottom">
 
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
@@ -1653,7 +1656,7 @@
         U.S.
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1741,7 +1744,7 @@
         world
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1824,7 +1827,7 @@
         bussiness
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1907,7 +1910,7 @@
         tech & Science
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1990,7 +1993,7 @@
         culture
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -2073,7 +2076,7 @@
         sports
       </h2>
 
-      <div class="d-flex flex-md-row flex-sm-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -2150,9 +2153,9 @@
       </div>
     </div>
 
-    <section class="main subscribe-section container-fluid mt-3 bg-white d-flex align-items-center flex-sm-wrap">
+    <section class="main subscribe-section container-fluid mt-3 bg-white d-flex align-items-center flex-wrap">
 
-      <div class="subscribe-main-section col-sm-12 col-lg-7 mt-4">
+      <div class="subscribe-main-section col-12 col-lg-7 mt-4">
 
         <h2 class="color-orangered uppercase font-weight-bolder pointer">
           subscribe
@@ -2177,15 +2180,15 @@
 
       </div>
 
-      <div class="newsletter-main col-sm-12 col-lg-5 mt-4">
+      <div class="newsletter-main col-12 col-lg-5 mt-4">
 
         <h2 class="color-orangered uppercase font-weight-bolder pointer">
           newsletter
         </h2>
 
         <div class="newsletter-container d-flex align-items-center border">
-          <div class="newsletter-img-cont d-sm-none d-md-block d-flex">
-            <img class="newsletter-img-1" src="img/newslwtter-img.png" alt="">
+          <div class="newsletter-img-cont d-flex">
+            <img class="newsletter-img-1 d-none d-md-block" src="img/newslwtter-img.png" alt="">
           </div>
           <div class="newsletter-text col-lg-6 col-md-9">
             <h2 class="subscribe-h2 color-black py-3 font-weight-bolder">
@@ -2206,14 +2209,14 @@
     </section>
 
     <div class="main container-fluid align-items-start p-4 bg-white">
-      <div class="d-flex flex-md-row flex-sm-column border-bottom px-4 justify-content-md-between">
-        <span class="d-flex flex-md-row flex-sm-column align-items-baseline">
+      <div class="d-flex flex-md-row flex-column border-bottom px-4 align-items-start justify-content-md-between">
+        <span class="d-flex flex-md-row flex-column align-items-baseline">
           <img class="footer-log" src="img/newsweek-logo.png" alt="">
           <p class="news-p ml-md-4">
             © 2020 Newsweek
           </p>
         </span>
-        <span class="footer-icons d-flex align-items-baseline pb-sm-4">
+        <span class="footer-icons d-flex align-items-baseline pb-4">
           <i class="fab fa-facebook-square footer-icon"></i>
           <i class="fab fa-twitter footer-icon"></i>
           <i class="fab fa-instagram footer-icon"></i>
@@ -2236,21 +2239,19 @@
           </ul>
         </div>
 
-        <div class="d-flex">
-          <ul class="container-fluid row footer-ul-1 flex-wrap justify-content-start bg-white">
-            <li class="footer-ul-1 capitalize pr-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">about us</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li footer-li"><a href="#" class="footer-a color-gray font-weight-light">corrections</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right font-weight-light footer-li"><a href="#" class="footer-a color-gray">contact us</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">editorial guidelines</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">advertise</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">copyright</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">terms & conditions</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">provacy policy</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">cookie policy</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">terms of sale</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">archive</a></li>
-            <li class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">announcements</a></li>
-          </ul>
+        <div class="">
+          <span class="footer-ul-1 capitalize pr-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">about us</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">corrections</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right font-weight-light footer-li"><a href="#" class="footer-a color-gray">contact us</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">editorial guidelines</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">advertise</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">copyright</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">terms & conditions</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">provacy policy</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">cookie policy</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">terms of sale</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">archive</a></span>
+          <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">announcements</a></span>
         </div>
       </div>
     </div>
