@@ -15,7 +15,7 @@ Building a page using HTML, CSS and Bootsrap that matches the appearance of this
 
 # Live Demo
 
-[Click here for Live Demo](https://jssarrazolaa.github.io/Booststrap-Project/)
+[Click here for Live Demo](https://jssarrazolaa.github.io/Bootstrap-Project/)
 
 # Getting Started
 
