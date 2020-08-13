@@ -12,7 +12,7 @@
   <script src="https://kit.fontawesome.com/548462a5f0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="container-lg whole-cont">
+  <div class="container-fluid whole-cont">
 
     <div class="sticky-navbar container-fluid d-flex bg-orangered justify-content-between align-items-baseline">
 
@@ -37,7 +37,7 @@
 
     </div>
 
-    <div class="navbar-big nav-container-lg">
+    <div class="navbar-big">
   
       <div class="div-nav position-relative d-md-none d-lg-block">
 
@@ -72,20 +72,20 @@
     </div>
 
     <div class="lists d-none d-lg-block">
-      <div class="navbar bg-white container-fluid d-none d-lg-block">
-        <div class="container-fluid middle-nav d-flex bg-white align-content-md-center border-bottom bg-white">
-          <span class="sections">U.S.</span>
-          <span class="sections">World</span>
-          <span class="sections">Business</span>
-          <span class="sections">Tech & Science</span>
-          <span class="sections">Culture</span>
-          <span class="sections">Newsgeek</span>
-          <span class="sections">Sports</span>
-          <span class="sections">Health</span>
-          <span class="sections">The Debate</span>
-          <span class="sections">Vantage</span>
-          <span class="sections">Weather</span>
-          <span class="">
+      <div class="navbar bg-white d-none d-lg-block">
+        <div class="w-100 middle-nav d-flex flex-row bg-white align-content-center border-bottom bg-white">
+          <span class="sections pr-3">U.S.</span>
+          <span class="sections px-3">World</span>
+          <span class="sections px-3">Business</span>
+          <span class="sections px-3">Tech & Science</span>
+          <span class="sections px-3">Culture</span>
+          <span class="sections px-3">Newsgeek</span>
+          <span class="sections px-3">Sports</span>
+          <span class="sections px-3">Health</span>
+          <span class="sections px-3">The Debate</span>
+          <span class="sections px-3">Vantage</span>
+          <span class="sections px-3">Weather</span>
+          <span class=" pl-3">
             <form action="">
               <input type="text" class="sections nav-search" placeholder="Search">
               <i class="fas fa-search"></i>
@@ -95,12 +95,12 @@
       </div>
       <div class="navbar bg-white d-none d-lg-block">
         <div class="bottom-nav d-flex align-items-md-center">
-          <span class="trending-sections">TRENDING</span>
-          <span class="trending-sections color-gray">DONALD TRUMP</span>
-          <span class="trending-sections color-gray">JOE BIDEN</span>
-          <span class="trending-sections color-gray">CHINA</span>
-          <span class="trending-sections color-gray">CORONAVIRUS</span>
-          <span class="trending-sections color-gray">2020 ELECTION</span>
+          <span class="trending-sections pr-4">TRENDING</span>
+          <span class="trending-sections px-4 color-gray">DONALD TRUMP</span>
+          <span class="trending-sections px-4 color-gray">JOE BIDEN</span>
+          <span class="trending-sections px-4 color-gray">CHINA</span>
+          <span class="trending-sections px-4 color-gray">CORONAVIRUS</span>
+          <span class="trending-sections px-4 color-gray">2020 ELECTION</span>
         </div>
       </div>
     </div>
@@ -108,7 +108,7 @@
 
     <main class="main-p w-100">
 
-      <div class="sticky-container grid d-flex flex-wrap bg-white p-4 position-relative">
+      <div class="sticky-container grid d-flex flex-wrap bg-white py-4 position-relative">
 
         <div class="news-1 d-block col-12 d-md-none">
           <div class="title-1">
@@ -116,6 +116,9 @@
           </div>
           <div class="img-news-1">
             <img class="news-img" src="img/top-story.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a href="#" class="undeline-orangered">
@@ -140,6 +143,9 @@
           <div class="feature">
             <div class="img-news-1">
               <img class="news-img" src="img/feature-img-1.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -158,6 +164,9 @@
           <div class="feature">
             <div class="img-news-1">
               <img class="news-img" src="img/feature-img-2.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title"><a href="#" class="undeline-orangered">
               <a href="#" class="undeline-orangered">
@@ -176,6 +185,9 @@
           <div class="feature">
             <div class="img-news-1">
               <img class="news-img" src="img/feature-img-3.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -194,6 +206,9 @@
           <div class="feature">
             <div class="img-news-1">
               <img class="news-img" src="img/feature-img-4.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -212,6 +227,9 @@
           <div class="feature">
             <div class="img-news-1">
               <img class="news-img" src="img/feature-img-5.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -259,7 +277,10 @@
           </div>
 
           <div class="feature d-none d-md-block">
-            <div class="feature-bg news-img news-bg-1">
+            <div class="feature-bg news-img news-bg-1 d-flex align-items-end">
+              <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -276,7 +297,10 @@
           </div>
           
           <div class="feature d-none d-md-block">
-            <div class="feature-bg news-img news-bg-2">
+            <div class="feature-bg news-img news-bg-2 d-flex align-items-end">
+              <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -293,7 +317,10 @@
           </div>
           
           <div class="feature d-none d-md-block">
-            <div class="feature-bg news-img news-bg-3">
+            <div class="feature-bg news-img news-bg-3 d-flex align-items-end">
+              <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -310,7 +337,10 @@
           </div>
           
           <div class="feature d-none d-md-block">
-            <div class="feature-bg news-img news-bg-4">
+            <div class="feature-bg news-img news-bg-4 d-flex align-items-end">
+              <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -336,6 +366,9 @@
             </div>
             <div class="img-news-1">
               <img class="news-img" src="img/top-story.webp" alt="">
+              <div class="tag uppercase color-orangered font-weight-bolder p-2">
+                world
+              </div>
             </div>
             <div class="news-title">
               <a href="#" class="undeline-orangered">
@@ -842,7 +875,10 @@
 
             <div class="d-flex flex-column sticky3-item my-4">
 
-              <div class="bg-container bg-third-1">
+              <div class="bg-container bg-third-1 d-flex align-items-end">
+                <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                  world
+                </div>
               </div>
               <div class="border p-4">
                 <a class="undeline-orangered" href="#">
@@ -869,7 +905,10 @@
   
             <div class="sticky3-item col-md-12 my-4">
   
-              <div class="bg-container bg-third-2">
+              <div class="bg-container bg-third-2 d-flex align-items-end">
+                <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                  world
+                </div>
               </div>
               <div class="border p-4">
                 <a class="undeline-orangered" href="#">
@@ -885,7 +924,10 @@
   
             <div class="sticky3-item col-md-12 my-4">
   
-              <div class="bg-container bg-third-3">
+              <div class="bg-container bg-third-3 d-flex align-items-end">
+                <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                  world
+                </div>
               </div>
               <div class="border p-4">
                 <a class="undeline-orangered" href="#">
@@ -901,7 +943,10 @@
   
             <div class="sticky3-item  col-md-12 my-4">
   
-              <div class="bg-container bg-third-4">
+              <div class="bg-container bg-third-4 d-flex align-items-end">
+                <div class="tag other-tag uppercase color-orangered font-weight-bolder p-2">
+                  world
+                </div>
               </div>
               <div class="border p-4">
                 <a class="undeline-orangered pt-0" href="#">
@@ -1166,7 +1211,7 @@
 
         </div>
 
-        <div class="container-fluid bg-white border-top">
+        <div class="bg-white border-top">
 
           <div class="d-block d-md-none border-bottom">
 
@@ -1350,14 +1395,14 @@
       </div>
     </main>
 
-    <div class="main main-2 magazine-cont p container-fluid flex-column bg-white border-bottom">
+    <div class="main main-2 magazine-cont flex-column bg-white border-bottom">
 
       <div class="d-flex align-items-center my-4">
         <span class="icon-n"></span>
         <span class="uppercase font-weight-bolder in-the"> in the magazine</span>
       </div>
 
-      <div class="d-flex flex-md-wrap flex-column flex-md-row my-4 p-4">
+      <div class="d-flex flex-md-wrap flex-column flex-md-row mb-4 border-top">
 
         <div class="magazine col-12 col-md-3 news-1 my-4">
           <div class="img-news-1 pointer">
@@ -1494,7 +1539,7 @@
 
     </div>
 
-    <div class="column-3 main main-3 container-fluid flex-column bg-white mt-1">
+    <div class="column-3 main main-3 flex-column bg-white mt-1">
 
       <div class="d-flex align-items-center w-100 justify-content-center border-bottom my-3 pb-2">
         <span class="icon-n"></span>
@@ -1506,6 +1551,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-1.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1524,6 +1572,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-2.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1542,6 +1593,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-3.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1560,6 +1614,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-4.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1578,6 +1635,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-5.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1596,6 +1656,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-6.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1614,6 +1677,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-7.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1632,6 +1698,9 @@
         <div class="col col-md-6 col-lg-3 news-1">
           <div class="img-news-1">
             <img class="news-img" src="img/editors-pick-img-8.webp" alt="">
+            <div class="tag uppercase color-orangered font-weight-bolder p-2">
+              world
+            </div>
           </div>
           <div class="news-title">
             <a class="undeline-orangered pt-0" href="#">
@@ -1656,7 +1725,7 @@
         U.S.
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1744,7 +1813,7 @@
         world
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1827,7 +1896,7 @@
         bussiness
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1910,7 +1979,7 @@
         tech & Science
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -1993,7 +2062,7 @@
         culture
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -2076,7 +2145,7 @@
         sports
       </h2>
 
-      <div class="d-flex flex-md-row flex-column container-fluid bg-white border-bottom pb-4">
+      <div class="d-flex flex-md-row flex-column bg-white border-bottom pb-4">
 
         <div class="col news-1 mb-4">
           <div class="img-news-1">
@@ -2153,7 +2222,7 @@
       </div>
     </div>
 
-    <section class="main subscribe-section container-fluid mt-3 bg-white d-flex align-items-center flex-wrap">
+    <section class="main subscribe-section mt-3 bg-white d-flex align-items-center flex-wrap">
 
       <div class="subscribe-main-section col-12 col-lg-7 mt-4">
 
@@ -2208,7 +2277,7 @@
        
     </section>
 
-    <div class="main container-fluid align-items-start p-4 bg-white">
+    <footer class="main align-items-start p-4 bg-white">
       <div class="d-flex flex-md-row flex-column border-bottom px-4 align-items-start justify-content-md-between">
         <span class="d-flex flex-md-row flex-column align-items-baseline">
           <img class="footer-log" src="img/newsweek-logo.png" alt="">
@@ -2225,8 +2294,8 @@
         </span>
       </div>
 
-      <div class="p-4">
-        <div class="d-flex mt-4">
+      <div class="px-4 pt-2">
+        <div class="d-flex">
           <h3 class="font-weight-bold mr-2">
             Editions:
           </h3>
@@ -2254,7 +2323,7 @@
           <span class="footer-ul-1 capitalize px-3 border-right footer-li"><a href="#" class="footer-a color-gray font-weight-light">announcements</a></span>
         </div>
       </div>
-    </div>
+    </footer>
 
   </div>
 
