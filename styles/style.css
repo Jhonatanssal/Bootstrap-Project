@@ -453,7 +453,12 @@ body {
 }
 
 .subscribe-img {
-  width: 25rem;
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe-img-1 {
+  width: 15vw;
   height: 100%;
 }
 
